@@ -1,0 +1,18 @@
+.centered1 {
+    position: absolute;
+    top: 50%;
+    left:25%;
+    transform: translate(-50%, -50%);
+  }
+.centered2 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+.centered3 {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+  }

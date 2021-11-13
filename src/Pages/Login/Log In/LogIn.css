@@ -1,0 +1,28 @@
+.signInbtn{
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    background-color: #ff8ea6;
+    width: 70px;
+    border-radius: 15px;
+    
+}
+.signInbtn:hover{
+    color: black;
+}
+.from-control{
+    width: 500px;
+    height: 20px;
+    color: black;
+    background-color: #ffe8e8;
+    border-radius: 10px;
+    border-color: #ff8ea6;
+    cursor:pointer;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+    
