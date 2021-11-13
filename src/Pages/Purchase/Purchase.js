@@ -38,8 +38,8 @@ const Purchase = () => {
                         <form className="formInput" onSubmit={handleSubmit(onSubmit)}>
                             <h5 className="text-center">Contact information</h5>
                             <input  {...register("name")} placeholder="Name" />
-                            <input {...register("email", { required: true, maxLength: 20 })} defaultValue={user?.email} />
-                            <input {...register("productName", { required: true, maxLength: 20 })} defaultValue={product.name} />
+                            <input {...register("email", { maxLength: 20 })} defaultValue={user?.email} />
+                            <input {...register("productName", { maxLength: 20 })} defaultValue={product.name} />
                             <input {...register("number", { maxLength: 20 })} defaultValue={product.price} />
                             <input type="phoneNumber" {...register("phoneNumber")} placeholder="PhoneNumber" />
                             <input {...register("Address")} placeholder="Address" />

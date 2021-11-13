@@ -53,23 +53,7 @@ const MyOrder = () => {
                     </div>
                 ))}
             </div>
-            <div>
-                {order?.map((toy) => (
-                    <div className="col-md-4">
-                        <div className=" border border p-3">
-                            <h4>Customar name:{toy?.name}</h4>
-                            <h5> Address{toy?.Address}</h5>
 
-                            <button
-                                onClick={() => handleDelete(toy?._id)}
-                                className="btn btn-danger"
-                            >
-                                Cancel
-                            </button>
-                        </div>
-                    </div>
-                ))}
-            </div>
         </div>
     );
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
 const Product = ({ toy }) => {
     const { _id, name, price, description, img } = toy || {};
@@ -18,7 +18,6 @@ const Product = ({ toy }) => {
 
                         <h5 className="card-title">${price}</h5>
                         <h6 className="card-text">{description}</h6>
-
 
                         <button onClick={() => handlePurchase(_id)} className="btn btn-success">shop Now</button>
 
